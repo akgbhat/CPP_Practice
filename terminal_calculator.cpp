@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 	float num1, num2;
-	cout << "Welcome to the Terminal Calculator! \nPleae type the first number: \n ";
+	cout << "Welcome to the Terminal Calculator! \nPlease type the first number: \n ";
 	cin >> num1;
 	cout <<"Please type the second number: \n";
 	cin >> num2;
@@ -25,10 +25,10 @@ int main(){
 				cout<<"Difference is: "<< num1-num2<<endl;
 			}
 			else if(op=='*'){
-				cout<<"Produt is: "<< num1*num2 <<endl;
+				cout<<"Product is: "<< num1*num2 <<endl;
 			}
 			else if (op == '/'&& num2!=0){
-				cout<<"Quatient is: "<< num1/num2 <<endl;
+				cout<<"Quotient is: "<< num1/num2 <<endl;
 			}
 			else {
 				cout<<"Invalid number"<<endl;
